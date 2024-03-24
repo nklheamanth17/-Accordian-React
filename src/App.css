@@ -4,14 +4,17 @@
   width: 100vh;
   justify-content: center;
   align-items: center;
+  
 }
 .accordation{
   width: 500px;
+  
 }
 .item{
   background: wheat;
   margin-bottom: 5px;
   padding: 10px 20px;
+  
 }
 .title{
   color: brown;
@@ -19,6 +22,7 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+ 
 
 
 }
@@ -27,10 +31,12 @@
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(1,0,1,0);
+  
 
 }
 .content.show{
   height: auto;
   max-height: 9999px;
   transition: all 0.5s cubic-bezier(1,0,1,0);
+ 
 }
